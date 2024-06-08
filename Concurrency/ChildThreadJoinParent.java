@@ -17,6 +17,7 @@ public class ChildThreadJoinParent {
         ChildThread.parent = Thread.currentThread();
         ChildThread ct = new ChildThread();
         ct.start();
+        // ct.join(); //Deadlock situation
         Thread.sleep(1000);
         System.out.println("Parent Thread");
     }
