@@ -2,24 +2,21 @@ package Concurrency;
 
 class ThreadDemo extends Thread {
     // Default constructor
-    ThreadDemo() {
+    ThreadDemo(String name) {
+        super(name);
     }
 
     public void run() {
-        for (int i = 0; i < 4; i++) {
-            System.out.println("Child Thread");
-        }
+        System.out.println("This run is getting run by " + Thread.currentThread().getName());
     }
 }
 
 class BasicThread {
     public static void main(String[] args) {
-        ThreadDemo t = new ThreadDemo(); // Using default constructor
+        ThreadDemo t = new ThreadDemo("VivekThread"); // Using default constructor
         t.start(); // Start the first thread
-
-        for (int i = 0; i < 4; i++) {
-            System.out.println("Main thread");
-        }
-
+        System.out.println("Name of current Thread here in main method " + Thread.currentThread().getName());
+        Thread.currentThread().setName("NeWName");
+        System.out.println("Name of current Thread here in main method " + Thread.currentThread().getName());
     }
 }
