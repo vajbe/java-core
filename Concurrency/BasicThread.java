@@ -21,8 +21,5 @@ class BasicThread {
             System.out.println("Main thread");
         }
 
-        // Create a new instance to start a new thread
-        ThreadDemo t2 = new ThreadDemo(); // Using default constructor
-        t2.start(); // Start the second thread
     }
 }
