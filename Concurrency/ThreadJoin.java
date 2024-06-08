@@ -23,6 +23,7 @@ public class ThreadJoin {
         ThreadDemoJoin t = new ThreadDemoJoin();
         t.start();
         t.join(200);
+        // t.join();
         System.out.println("Done waiting");
     }
 }
