@@ -20,12 +20,13 @@ public class ThreadPriority {
 
         ThreadRun r = new ThreadRun();
         Thread t1 = new Thread(r, "Prio-1");
-        t1.setPriority(Thread.MIN_PRIORITY);
+        t1.setPriority(Thread.MAX_PRIORITY);
 
         Thread t2 = new Thread(r, "Prio-2");
-        t2.setPriority(Thread.MAX_PRIORITY);
+        t2.setPriority(Thread.MIN_PRIORITY);
 
         t1.start();
         t2.start();
+        System.out.println("My priority " + Thread.currentThread().getPriority());
     }
 }
