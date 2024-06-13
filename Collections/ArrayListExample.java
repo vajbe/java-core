@@ -3,7 +3,10 @@ package Collections;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
+
+
 
 class Data {
     int data;
@@ -38,6 +41,9 @@ public class ArrayListExample {
         System.out.println("");
         Collections.sort(list, new SortByData());
         System.out.println("After sort");
+/*         Iterator<Data> i = list.iterator();
+        System.out.println(i.next().data);
+        System.out.println(i.next().data); */
         for (Data data : list) {
             System.out.print(data.data + ", ");
         }
