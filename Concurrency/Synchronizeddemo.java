@@ -4,13 +4,14 @@ class Display {
     public synchronized void greet(String name) {
         for (int i = 0; i < 3; i++) {
             System.out.print("GOOD MORNING:");
-        }
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
 
+            }
+            System.out.println(name);
         }
-        System.out.println(name);
+
     }
 }
 
