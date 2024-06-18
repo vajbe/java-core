@@ -6,8 +6,6 @@ public class AtomicIntegerExample {
     static AtomicInteger atomicInteger = new AtomicInteger(0);
 
     public static void main(String[] args) {
-        AtomicIntegerExample e = new AtomicIntegerExample();
-
         Thread t1 = new Thread(new Runnable() {
             public void run() {
                 increase();
