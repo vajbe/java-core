@@ -8,6 +8,7 @@ class ThreadDemo extends Thread {
 
     public void run() {
         System.out.println("This run is getting run by " + Thread.currentThread().getName());
+        System.out.println("This run is getting run by " + Thread.currentThread().getThreadGroup().getName());
     }
 }
 
