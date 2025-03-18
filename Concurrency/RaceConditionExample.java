@@ -3,14 +3,17 @@ package Concurrency;
 import java.util.concurrent.atomic.AtomicInteger;
 
 class Counter {
-    private AtomicInteger count = new AtomicInteger(0);
+    // private AtomicInteger count = new AtomicInteger(0);
+    private int count = 0;
 
     public void increment() {
-        count.incrementAndGet(); // Not thread-safe
+        // count.incrementAndGet(); 
+        count++; // Not thread-safe
     }
 
     public int getCount() {
-        return count.get();
+        // return count.get();
+        return count;
     }
 }
 
