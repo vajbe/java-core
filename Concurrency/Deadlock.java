@@ -37,10 +37,10 @@ public class Deadlock {
     }
 
     public void worker2() throws Exception {
-        lock2.lock();
+        lock1.lock();
         System.out.println("Worker2 acquires lock2");
         Thread.sleep(500);
-        lock1.lock();
+        lock2.lock();
         System.out.println("Worker2 acquires lock1");
         System.out.println("Worker2 finished exeuction");
         lock1.unlock();
