@@ -30,7 +30,7 @@ public class FixedThread {
     public static void main(String[] args) {
         ExecutorService es = Executors.newFixedThreadPool(2);
         for (int i = 0; i < 12; i++) {
-            es.submit(new Job(i));
+            es.execute(new Job(i));
         }
         /* es.shutdown(); */
     }
