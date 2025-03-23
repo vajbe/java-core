@@ -1,0 +1,231 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "VirtualThreadExample",
+            "request": "launch",
+            "mainClass": "Concurrency.VirtualThreads.VirtualThreadExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListExample",
+            "request": "launch",
+            "mainClass": "Collections.ArrayListExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "AtomicIntegerExample",
+            "request": "launch",
+            "mainClass": "Concurrency.AtomicIntegerExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "BasicThread",
+            "request": "launch",
+            "mainClass": "Concurrency.BasicThread",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ChildThreadJoinParent",
+            "request": "launch",
+            "mainClass": "Concurrency.ChildThreadJoinParent",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ConcurrentRequestHandler",
+            "request": "launch",
+            "mainClass": "Concurrency.ConcurrentRequestHandler",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Deadlock",
+            "request": "launch",
+            "mainClass": "Concurrency.Deadlock",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ExampleRunnable",
+            "request": "launch",
+            "mainClass": "Concurrency.ExampleRunnable",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Concurrency.ForkJoin.Fibonacci",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "NumbersSum",
+            "request": "launch",
+            "mainClass": "Concurrency.ForkJoin.NumbersSum",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "HighCPUExample",
+            "request": "launch",
+            "mainClass": "Concurrency.HighCPU.HighCPUExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteLoopProblem",
+            "request": "launch",
+            "mainClass": "Concurrency.InfiniteLoops.InfiniteLoopProblem",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteLoopVolatileSol",
+            "request": "launch",
+            "mainClass": "Concurrency.InfiniteLoops.InfiniteLoopVolatileSol",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Livelock",
+            "request": "launch",
+            "mainClass": "Concurrency.Livelock",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "RaceConditionExample",
+            "request": "launch",
+            "mainClass": "Concurrency.RaceConditionExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "SemaphoreBasics",
+            "request": "launch",
+            "mainClass": "Concurrency.Semaphores.SemaphoreBasics",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "SleepInterrupt",
+            "request": "launch",
+            "mainClass": "Concurrency.SleepInterrupt",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "StarvationExample",
+            "request": "launch",
+            "mainClass": "Concurrency.Starvation.StarvationExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "StarvationExampleSolution",
+            "request": "launch",
+            "mainClass": "Concurrency.Starvation.StarvationExampleSolution",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Synchronizeddemo",
+            "request": "launch",
+            "mainClass": "Concurrency.Synchronizeddemo",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ThreadJoin",
+            "request": "launch",
+            "mainClass": "Concurrency.ThreadJoin",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPoolDeadlockExample",
+            "request": "launch",
+            "mainClass": "Concurrency.ThreadPoolDeadlock.ThreadPoolDeadlockExample",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "FixedThread",
+            "request": "launch",
+            "mainClass": "Concurrency.ThreadPools.FixedThread",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ScheduleService",
+            "request": "launch",
+            "mainClass": "Concurrency.ThreadPools.ScheduleService",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "SingleThreadExecutor",
+            "request": "launch",
+            "mainClass": "Concurrency.ThreadPools.SingleThreadExecutor",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPriority",
+            "request": "launch",
+            "mainClass": "Concurrency.ThreadPriority",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ConcurrentStackLock",
+            "request": "launch",
+            "mainClass": "Problems.ConcurrentStack.ConcurrentStackLock",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Cache",
+            "request": "launch",
+            "mainClass": "Problems.LRUCache.Cache",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "Problems.OddEven.OddEven",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "ReverseVowels",
+            "request": "launch",
+            "mainClass": "Problems.VowelsReverse.ReverseVowels",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
+            "name": "Singletone",
+            "request": "launch",
+            "mainClass": "Singletone",
+            "projectName": "java-concurrency_d46fb4c4"
+        }
+    ]
+}
