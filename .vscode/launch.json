@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConditionVars",
+            "request": "launch",
+            "mainClass": "Concurrency.Condition.ConditionVars",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "FutureExample",
             "request": "launch",
             "mainClass": "Concurrency.VirtualThreads.FuturesEx.FutureExample",

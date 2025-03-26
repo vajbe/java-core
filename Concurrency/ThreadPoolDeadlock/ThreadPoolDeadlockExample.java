@@ -22,5 +22,7 @@ public class ThreadPoolDeadlockExample {
         es.submit(t);
         es.submit(t);
         es.submit(t);
+
+        es.shutdown();
     }
 }
