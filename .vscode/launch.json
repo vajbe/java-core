@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecentCounter",
+            "request": "launch",
+            "mainClass": "Problems.NumRecentCalls.RecentCounter",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "CompletableFutureExample",
             "request": "launch",
             "mainClass": "Concurrency.VirtualThreads.CompletableFutureEx.CompletableFutureExample",
