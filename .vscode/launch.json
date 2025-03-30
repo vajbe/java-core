@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumIslands",
+            "request": "launch",
+            "mainClass": "Problems.Graph.NumIslands",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "CenterOfGraph",
             "request": "launch",
             "mainClass": "Problems.Graph.CenterOfGraph",
