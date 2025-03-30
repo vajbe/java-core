@@ -1,4 +1,5 @@
-package Problems.Graph;
+// https://leetcode.com/problems/number-of-islands/description/
+package DSA.Graph;
 
 public class NumIslands {
     void dfs(int i, int j, char[][] grid) {

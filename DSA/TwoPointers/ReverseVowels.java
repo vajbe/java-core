@@ -1,4 +1,4 @@
-package Problems.VowelsReverse;
+package DSA.TwoPointers;
 
 import java.util.Arrays;
 import java.util.List;

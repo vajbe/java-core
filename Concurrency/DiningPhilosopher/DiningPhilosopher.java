@@ -1,4 +1,4 @@
-package Problems.DiningPhilosopher;
+package Concurrency.DiningPhilosopher;
 
 import java.util.concurrent.Semaphore;
 

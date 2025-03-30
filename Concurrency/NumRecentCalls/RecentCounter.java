@@ -1,4 +1,4 @@
-package Problems.NumRecentCalls;
+package Concurrency.NumRecentCalls;
 
 import java.util.LinkedList;
 import java.util.Queue;

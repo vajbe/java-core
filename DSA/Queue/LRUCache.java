@@ -1,4 +1,6 @@
-package Problems.LRUCache;
+//https://leetcode.com/problems/lru-cache/
+
+package DSA.Queue;
 
 import java.util.HashMap;
 

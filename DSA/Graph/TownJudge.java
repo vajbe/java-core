@@ -1,4 +1,5 @@
-package Problems.TownJudge;
+// https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+package DSA.Graph;
 
 public class TownJudge {
 

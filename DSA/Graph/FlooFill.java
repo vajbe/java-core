@@ -1,5 +1,5 @@
 /*https://leetcode.com/problems/flood-fill/description/ */
-package Problems.Graph;
+package DSA.Graph;
 
 public class FlooFill {
     void dfs(int i, int j, int[][] image, int color, int newColor) {

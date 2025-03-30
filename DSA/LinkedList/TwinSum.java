@@ -1,4 +1,5 @@
-package Problems.TwinSumLL;
+//https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+package DSA.LinkedList;
 
 import java.util.Stack;
 

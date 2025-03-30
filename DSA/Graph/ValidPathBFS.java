@@ -1,4 +1,5 @@
-package Problems.Graph;
+// https://leetcode.com/problems/find-if-path-exists-in-graph/?envType=problem-list-v2&envId=graph
+package DSA.Graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;

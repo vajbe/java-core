@@ -1,4 +1,4 @@
-package Problems.ConcurrentStack;
+package Concurrency.ConcurrentStack;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.Lock;

@@ -1,4 +1,4 @@
-package Problems.OddEven;
+package Concurrency.OddEven;
 
 import java.sql.Time;
 import java.time.Duration;

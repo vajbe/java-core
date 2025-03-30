@@ -1,4 +1,6 @@
-package Problems.Graph;
+// https://leetcode.com/problems/find-center-of-star-graph/description/?envType=problem-list-v2&envId=graph
+
+package DSA.Graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
