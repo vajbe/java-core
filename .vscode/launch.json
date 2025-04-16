@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxJump",
+            "request": "launch",
+            "mainClass": "DSA.DP.MaxJump",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "BuySellStockTwo",
             "request": "launch",
             "mainClass": "DSA.ArrayString.BuySellStockTwo",
