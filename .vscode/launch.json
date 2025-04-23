@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GasStation",
+            "request": "launch",
+            "mainClass": "DSA.ArrayString.GasStation",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "ProductArray",
             "request": "launch",
             "mainClass": "DSA.ArrayString.ProductArray",
