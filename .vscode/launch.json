@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateList",
+            "request": "launch",
+            "mainClass": "DSA.LinkedList.RotateList",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "PartitionList",
             "request": "launch",
             "mainClass": "DSA.LinkedList.PartitionList",
