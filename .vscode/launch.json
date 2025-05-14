@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReversePositionedLL",
+            "request": "launch",
+            "mainClass": "DSA.LinkedList.ReversePositionedLL",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicate",
             "request": "launch",
             "mainClass": "DSA.LinkedList.RemoveDuplicate",
