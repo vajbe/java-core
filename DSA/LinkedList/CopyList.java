@@ -24,7 +24,7 @@ public class CopyList {
         Node curr = head;
         while (curr != null) {
             oldNew.put(curr, new Node(curr.val));
-            curr = curr.next;
+            curr = curr.next; 
         }
 
         curr = head;
