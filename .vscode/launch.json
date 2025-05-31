@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountNodes",
+            "request": "launch",
+            "mainClass": "DSA.Tree.CountNodes",
+            "projectName": "java-concurrency_d46fb4c4"
+        },
+        {
+            "type": "java",
             "name": "SumRoot",
             "request": "launch",
             "mainClass": "DSA.Tree.SumRoot",
