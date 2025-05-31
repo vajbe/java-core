@@ -6,7 +6,24 @@ public class CountNodes {
         if (root == null) {
             return 0;
         }
-        return 1 + countNodes(root.left) + countNodes(root.right);
+        int leftDepth = depth(root.left);
+        int rightDepth = depth(root.right);
+
+        if (leftDepth == rightDepth) {
+            return (1 << leftDepth) + countNodes(root.right);
+        } else {
+            return (1 << rightDepth) + countNodes(root.left);
+        }
+    }
+
+    int depth(TreeNode root) {
+        TreeNode node = root;
+        int depth = 0;
+        while (node != null) {
+            depth++;
+            node = node.left;
+        }
+        return depth;
     }
 
     public static void main(String[] args) {
